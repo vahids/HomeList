@@ -14,6 +14,14 @@
 		3D7E5FA01CF2085D00F72160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7E5F9E1CF2085D00F72160 /* LaunchScreen.storyboard */; };
 		3D7E5FA91CF2087700F72160 /* HomeReport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E5FA71CF2087700F72160 /* HomeReport.xcdatamodeld */; };
 		3D7E5FAB1CF208CA00F72160 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E5FAA1CF208CA00F72160 /* CoreData.swift */; };
+		3D7E5FB41CF20D4900F72160 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E5FAC1CF20D4900F72160 /* Category+CoreDataProperties.swift */; };
+		3D7E5FB51CF20D4900F72160 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E5FAD1CF20D4900F72160 /* Category.swift */; };
+		3D7E5FB61CF20D4900F72160 /* Status+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E5FAE1CF20D4900F72160 /* Status+CoreDataProperties.swift */; };
+		3D7E5FB71CF20D4900F72160 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E5FAF1CF20D4900F72160 /* Status.swift */; };
+		3D7E5FB81CF20D4900F72160 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E5FB01CF20D4900F72160 /* Location+CoreDataProperties.swift */; };
+		3D7E5FB91CF20D4900F72160 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E5FB11CF20D4900F72160 /* Location.swift */; };
+		3D7E5FBA1CF20D4900F72160 /* Home+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E5FB21CF20D4900F72160 /* Home+CoreDataProperties.swift */; };
+		3D7E5FBB1CF20D4900F72160 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E5FB31CF20D4900F72160 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		3D7E5FA11CF2085D00F72160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D7E5FA81CF2087700F72160 /* HomeReport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeReport.xcdatamodel; sourceTree = "<group>"; };
 		3D7E5FAA1CF208CA00F72160 /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		3D7E5FAC1CF20D4900F72160 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3D7E5FAD1CF20D4900F72160 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3D7E5FAE1CF20D4900F72160 /* Status+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Status+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3D7E5FAF1CF20D4900F72160 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		3D7E5FB01CF20D4900F72160 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3D7E5FB11CF20D4900F72160 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3D7E5FB21CF20D4900F72160 /* Home+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Home+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3D7E5FB31CF20D4900F72160 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,14 @@
 		3D7E5F941CF2085D00F72160 /* HomeList */ = {
 			isa = PBXGroup;
 			children = (
+				3D7E5FAC1CF20D4900F72160 /* Category+CoreDataProperties.swift */,
+				3D7E5FAD1CF20D4900F72160 /* Category.swift */,
+				3D7E5FAE1CF20D4900F72160 /* Status+CoreDataProperties.swift */,
+				3D7E5FAF1CF20D4900F72160 /* Status.swift */,
+				3D7E5FB01CF20D4900F72160 /* Location+CoreDataProperties.swift */,
+				3D7E5FB11CF20D4900F72160 /* Location.swift */,
+				3D7E5FB21CF20D4900F72160 /* Home+CoreDataProperties.swift */,
+				3D7E5FB31CF20D4900F72160 /* Home.swift */,
 				3D7E5F951CF2085D00F72160 /* AppDelegate.swift */,
 				3D7E5F971CF2085D00F72160 /* ViewController.swift */,
 				3D7E5F991CF2085D00F72160 /* Main.storyboard */,
@@ -142,10 +166,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7E5FBA1CF20D4900F72160 /* Home+CoreDataProperties.swift in Sources */,
 				3D7E5FAB1CF208CA00F72160 /* CoreData.swift in Sources */,
 				3D7E5FA91CF2087700F72160 /* HomeReport.xcdatamodeld in Sources */,
+				3D7E5FB91CF20D4900F72160 /* Location.swift in Sources */,
+				3D7E5FB41CF20D4900F72160 /* Category+CoreDataProperties.swift in Sources */,
+				3D7E5FB71CF20D4900F72160 /* Status.swift in Sources */,
 				3D7E5F981CF2085D00F72160 /* ViewController.swift in Sources */,
+				3D7E5FB81CF20D4900F72160 /* Location+CoreDataProperties.swift in Sources */,
 				3D7E5F961CF2085D00F72160 /* AppDelegate.swift in Sources */,
+				3D7E5FB61CF20D4900F72160 /* Status+CoreDataProperties.swift in Sources */,
+				3D7E5FBB1CF20D4900F72160 /* Home.swift in Sources */,
+				3D7E5FB51CF20D4900F72160 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
